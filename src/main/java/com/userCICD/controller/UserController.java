@@ -12,7 +12,7 @@ public class UserController {
 	@RequestMapping(method=RequestMethod.GET,path="/test")
 	public ResponseEntity<?> maincont()
 	{
-		return new ResponseEntity<>("Test Is Sucessfull and Updated at 9 o clock",HttpStatus.OK);
+		return new ResponseEntity<>("Test Is Sucessfull and Updated at 9:15",HttpStatus.OK);
 	}
 	
 
